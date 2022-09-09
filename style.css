@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.first {
+    background-color: hsl(227, 100%, 95%);
+    height: 622px;
+    overflow: hidden;
+
+}
+
+.first img {
+    width: 1600px;
+    height: 270px;
+}
+
+.container {
+    margin-top: 2rem;
+    margin-right: 0rem;
+    position: absolute;
+}
+
+
+.image {
+    height: 220px;
+    border-radius: 1rem 1rem 0 0;
+    overflow: hidden;
+    margin-bottom: -2.2rem;
+}
+
+.container2 {
+    background-color: white;
+    display: grid;
+    flex-direction: column;
+    text-align: center;
+    width: 380px;
+    border-radius: 0 0 1rem 1rem;
+}
+
+h1 {
+    margin-top: 1.5rem;
+    font-weight: 900;
+    font-size: 20px;
+}
+
+p {
+    margin-top: 1rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    width: 340px;
+    margin-left: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.plan {
+    display: flex;
+    width: 330px;
+    height: 70px;
+    background-color: hsl(220, 11%, 89%);
+    margin-left: 1.5rem;
+    border-radius: 1rem;
+
+}
+
+.plan img {
+    margin-left: 1rem;
+    margin-top: 0.625rem;
+    width: 45px;
+    height: 45px;
+}
+
+ul {
+
+    list-style: none;
+    margin-left: 1rem;
+    margin-top: 1.2rem;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+ul li b {
+    color: black;
+}
+
+
+h4 {
+    color: hsl(245, 75%, 52%);
+    margin-left: 6rem;
+    margin-top: 1.5rem;
+    text-decoration: underline;
+}
+
+h4:hover {
+    cursor: pointer;
+    color: hsl(245, 95%, 70%);
+    text-decoration: none;
+}
+
+.bottom {
+    background-color: hsl(245, 75%, 52%);
+    margin-top: 2rem;
+    margin-left: 1.5rem;
+    width: 330px;
+    height: 50px;
+    border-radius: 1rem;
+}
+
+.bottom:hover {
+    cursor: pointer;
+    background-color: hsl(245, 99%, 74%);
+    color: white;
+}
+
+h3 {
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+h5 {
+    font-size: 15px;
+    font-weight: 700;
+    margin-top: 1.8rem;
+    margin-bottom: 1.8rem;
+    color: hsl(224, 23%, 55%);
+
+}
+
+h5:hover {
+    cursor: pointer;
+    color: black;
+}
+
+
+
+@media all and (max-width: 640px) {
+    body{
+        overflow: hidden;
+    }
+}
+
+.attribution {
+    font-size: 11px;
+    display: flex;
+    position: absolute;
+    margin-top: 38rem;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
